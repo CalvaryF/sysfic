@@ -4,7 +4,7 @@
     margin-top:60px;
     height: 270px;
     width: 100%;
-    background-color:#ff4329;
+    background-color:rgb(30,30,30);
     color:white;
 }
 
@@ -32,7 +32,7 @@
 
 .contactButton:hover 
 {
-    color:#ff4329;
+    color:rgb(30,30,30);
     background-color: white;
     border-width:1px;
     border-style:solid;
@@ -59,7 +59,7 @@
 
 .footerLink:hover
 {
-    color:#ff806f;
+    color:#a5a5a5;
 }
 
 .copyright

@@ -5,7 +5,7 @@ class Header extends Component {
     render() { 
         return ( 
         <div className = "footerMain">
-            <div className ="contact" > For business inquiries: <br></br><Link to="/" className="contactButton">Email me</Link> </div>
+            <div className ="contact" > For business inquiries: <br></br><Link to="/" className="contactButton">Email me &#8594;</Link> </div>
 
             <div className ="links"> 
                 <Link to ="/" className = "footerLink">Youtube </Link>

@@ -13,7 +13,7 @@ class Card extends Component {
                 <div className ="projectHeadContent"> 
                     <img className="projectLogo" src="/images/new_logo copy.svg" ></img>
                     <div className ="projectHeadTextContainer">
-                        <div className = "projectHeadTitle"> generic processor</div>
+                        <div className = "projectHeadTitle"> chimera</div>
                         <div className="projectHeadText">  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. </div>
                     </div>
                     

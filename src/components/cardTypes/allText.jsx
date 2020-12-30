@@ -21,11 +21,11 @@ class Card extends Component {
 
                 <div className ="projectCardBody"> 
                     <div className="projectCardCopy">
-                    <div className="projectCardSubtitle"> {this.state.subtitle1} </div>
+                        <div className="projectCardSubtitle"> {this.state.subtitle1} </div>
                         <div className ="projectCardParagraph"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  </div>
                     </div>
                     <div className="projectCardCopy">
-                    <div className="projectCardSubtitle2"> {this.state.subtitle2} </div>
+                        <div className="projectCardSubtitle2"> {this.state.subtitle2} </div>
                         <div className ="projectCardParagraph"> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.  </div>
                     </div>
                 </div>

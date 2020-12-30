@@ -94,8 +94,8 @@ class Main extends Component {
             {
                 id: 1, 
                 type: 0, 
-                title: 'test', 
-                path: '/work/use-value', 
+                title: 'PARACASTE', 
+                path: '/test', 
                 thumbnail: '/images/4.jpg',
                 description: 'Sometimes Fake is Better',
                 image0: '/images/project1/test0.png',

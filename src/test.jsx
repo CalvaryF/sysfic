@@ -11,16 +11,27 @@ function Info ()
     return (
         <div>
             <ProjectHead/>
-            <div className="projectContainer"> 
-                <div className="testMain"> 
+            <div className="projectContainer flex"> 
+                
+
+                <div className="projectLeft"> 
+                <Sticky title={'Big Questions'}/>
+                <Sticky title={'Tools + Techniques'}/>
+                </div>
+
+                <div className="projectRight"> 
                     <TextImageText title={"infrahumanism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} subtitle1={'Tracable Transplants'} subtitle2={'Remember Where You Are'}/>
                     <AllText title ={'soul control'} subtitle1 ={"Extrastatecraft"} subtitle2 = {"The Ikea Effect"} />
                     <AllImage title={"ocular vision"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} />
-                    <Sticky title={'Big Questions'}/>
-                    
-                    
+                    <AllImage title={"Bone Minimalism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} />
+                    <TextImageText title={"infrahumanism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} subtitle1={'Tracable Transplants'} subtitle2={'Remember Where You Are'}/>
+             
                 </div>
+
+                
             </div>
+            
+            
         </div>
     );
 }

@@ -4,9 +4,8 @@ import React, { Component } from 'react';
 class Card extends Component {
     state = {
         title: this.props.title,
-        caption: this.props.caption,
-        subtitle1: this.props.subtitle1,
-        subtitle2: this.props.subtitle2
+        caption: this.props.copy
+        
     };
     render() { 
        
@@ -14,10 +13,16 @@ class Card extends Component {
             
             <div className="stickyShadowWrapper"> 
                 <div className="projectSticky">
-                        <div calssName="stickyDogEar"> larp </div>
-                        <div className="projectCardHead lighten"> 
-                        <span className="projectStickyTitle">{this.state.title}</span> 
-                            <div className="dot cloud"></div>
+                        <div className="dogear"> </div>
+                        <div className="projectCardHead redden"> 
+                        <span className="stickyTitle">{this.state.title}</span> 
+                            <div className="dot mantle"></div>
+                        </div>
+
+                        <div className="stickyCopy">
+                            - This is a test this is a test <br></br><br></br>
+                            - This is a test this is a test <br></br><br></br>
+                            - This is a test this is a test <br></br><br></br>
                         </div>
             </div>
            </div>
