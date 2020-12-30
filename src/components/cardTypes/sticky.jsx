@@ -11,20 +11,15 @@ class Card extends Component {
     render() { 
        
         return (
-
-            <div className="projectCardDiv noPadding">
-
-                <div className="projectCardHead lighten"> 
-                <span className="projectCardTitle lighten">{this.state.title}</span> 
-                    <div className="dot cloud"></div>
-                </div>
-
-                
-
-                    <div className="projectCardImageBody">
-                        <div className="projectCardImage"> </div>
-                        <div className="projectCardCaption" > {this.state.caption} </div>
-                    </div>
+            
+            <div className="stickyShadowWrapper"> 
+                <div className="projectSticky">
+                        <div calssName="stickyDogEar"> larp </div>
+                        <div className="projectCardHead lighten"> 
+                        <span className="projectStickyTitle">{this.state.title}</span> 
+                            <div className="dot cloud"></div>
+                        </div>
+            </div>
            </div>
         );
     }
