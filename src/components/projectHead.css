@@ -1,0 +1,89 @@
+.projectHead 
+{
+    
+    display:block;
+    width: 100%;
+    height:500px;
+    background-color:rgb(225, 225, 225);
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 60px;
+}
+
+.projectHeadContent
+{
+    position:absolute;
+    margin-left: 30px;
+    margin-top: 150px;
+
+}
+
+.projectLogo
+{
+    position:relative;
+    display: inline-block;
+    width: 270px;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+
+.projectHeadTitle
+{
+    font-family: aktiv-grotesk-extended,serif;
+    font-size: 32px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+
+.projectHeadText
+{
+    color:rgb(96, 96, 96);
+    position:relative;
+    font-size: 22px;
+    font-family: ff-meta-serif-web-pro, serif;
+
+}
+
+.projectHeadTextContainer
+{
+    display: inline-block;
+    width: 600px;
+    vertical-align: middle;
+}
+
+.projectDivider
+{
+    position:absolute;
+    right:0px;
+    height: 500px; 
+    width: 65px;
+    
+    border-left: 1px solid rgb(193, 193, 193);
+ 
+}
+
+
+
+.projectVertical
+{
+    position:absolute;
+    right:6px;
+    margin-top:80px;
+    
+}
+
+.projectVerticalText
+{
+    position:absolute;
+    font-family: aktiv-grotesk-extended,serif;
+    font-size:20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    transform-origin: 0% 50%;
+    right:-198px;
+    transform: rotate(90deg);
+    margin-top:115px;
+    color:rgb(14, 14, 14);
+    
+}
+

@@ -1,0 +1,141 @@
+.headerMain 
+{
+    position:fixed;
+    width:100%;
+    font-family: uniwars, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+    overflow:atuo;
+    z-index:4;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome, Edge, Opera and Firefox */
+}
+
+.header 
+{
+    overflow:atuo;
+    height: 65px;
+    background-color: white;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.05), 0 1px 2px rgba(0,0,0,0.10);
+    
+}
+
+.headerMenu 
+{
+    color: rgb(199, 199, 199);
+    padding-top: 21px;
+    font-size: 18px;
+    float:right;
+    overflow:hidden;
+    margin-right:15px;
+}
+
+.subHead 
+{
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .subHead 
+{
+    font-size: 15px;
+}
+}
+
+
+
+.menuItem
+ {
+     margin-right: 15px;
+    
+ }
+
+ .selectable 
+ {
+     color:lightgray;
+ }
+
+.selectable:hover 
+ {
+     color:#ff4329;
+     transition: 0.2s;
+ }
+
+ .menuItemSelected 
+ {
+     color: rgb(0, 0, 0);
+ }
+
+.subItem 
+{
+    color: #ff4329;
+    font-weight: 400;
+}
+
+.name 
+{
+    display:inline-block;
+    margin-top:0px;
+    padding-left: 10px;
+    transition:0.2s;
+    font-size: 20px;
+}
+
+.logoContainer
+{
+    
+    height:100%;
+    transition:0.1s;
+    vertical-align:middle;
+}
+
+.logo 
+{
+    
+    vertical-align:middle;
+    margin-left:30px;
+    width: 30px;
+    
+}
+
+.logoContainer:hover 
+{
+    
+    filter:invert(50%) brightness(160%);
+   
+}
+
+.divider
+{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left:30px;
+    margin-top:0px;
+    height: 65px;
+    width: 1px;
+    background-color: rgb(228, 228, 228);
+}
+
+@media screen and (max-width: 600px) {
+    .name {
+      display:none;
+    }
+    .headerMenu
+    {
+        font-size: 16px;
+    }
+    .menuItem
+    {
+        margin-right:8px;
+    }
+    .logoContainer:hover 
+    {
+   filter:brightness(100%);
+    }
+  }

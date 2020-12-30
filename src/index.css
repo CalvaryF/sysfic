@@ -1,13 +1,84 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import "./components/header.css";
+@import "./components/project.css";
+@import "./components/feed.css";
+@import "./components/cards.css";
+@import "./components/info.css";
+@import "./components/test.css";
+@import "./components/footer.css";
+@import "./components/projectHead.css";
+@import "./components/cardTypes/projectCards.css";
+
+body 
+{
+
+    margin:0;
+    margin-top:0;
+    background-color: rgb(240, 240, 240);
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+a
+{
+    text-decoration: none;
+    color: black;
 }
+
+.dot 
+{
+background-color:rgb(255, 255, 255);
+height:20px;
+width:20px;
+border-radius: 10px;
+margin:14px;
+float:right;
+}
+
+.crust 
+{
+
+    background-color:rgb(46, 128, 160);
+    color:rgb(46, 128, 160);
+}
+
+.mantle 
+{
+    background-color:rgb(158, 208, 227);
+    color:rgb(158, 208, 227);
+}
+
+.core
+{
+    background-color:rgb(14, 14, 14);
+    color:rgb(14, 14, 14);
+}
+
+.cloud
+{
+    background-color:rgb(225, 225, 225);
+}
+
+.flex 
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+    
+    
+
+
+
+
+
+
+

@@ -1,0 +1,528 @@
+
+
+
+
+.projectBackground 
+{
+   
+   position:relative;
+    
+    width: 100%;
+    height: 550px;
+    z-index:-10;
+}
+
+
+
+.bg0
+{
+    background-color: rgb(240, 240, 240);
+    z-index:3;
+}
+
+.bg1
+{
+    
+    background-color: rgb(19, 19, 19);
+    z-index:3;
+}
+
+.bg2
+{
+    background-color: rgb(19, 19, 19);
+    z-index:3;
+}
+
+.pageTitle 
+{
+    color:white;
+    margin-top: 70px;
+    font-family: aktiv-grotesk-extended,serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-left: 20px;
+    display: inline-block;
+    position:fixed;
+    z-index:15;
+}
+
+.pageType 
+{
+    color:rgb(252, 87, 27);
+    margin-top: 71px;
+    font-family: aktiv-grotesk-extended,serif;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 20px;
+    right:53px;
+    margin-right: 6px;
+    position:fixed;
+    z-index:12;
+}
+
+.projectDot 
+{
+
+height:20px;
+width:20px;
+margin-right: 25px;
+border-radius: 10px;
+margin-top:62px;
+right: 8px;
+position:fixed;
+z-index:12;
+}
+
+.projectInfoContainer
+{
+    display:flex;
+    width:100%;
+    justify-content:center;
+    margin-top: 120px;
+    flex-wrap:wrap;
+}
+
+.projectInfo
+{
+    width:400px;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+
+
+
+.projectLogoNill
+{
+    width: 200px;
+    height:200px;
+    border-radius: 100px;
+    background-color:rgb(237, 237, 237);
+    justify-self: center;
+    margin-bottom: 30px;
+}
+
+
+.projectDescription 
+{
+    color:rgb(240, 240, 240);
+    font-family: aktiv-grotesk-extended,serif;
+    font-size: 40px;
+    font-weight:400;
+    position:relative;
+    text-align:center;
+    text-transform:uppercase;
+}
+
+.des0
+{
+    
+    color:rgb(24, 24, 24);
+    font-weight: 400;
+}
+.des1
+{
+    color:rgb(240, 240, 240);
+}
+.title0
+{
+    
+    color:rgb(24, 24, 24);
+}
+.title1
+{
+    
+    color:rgb(240, 240, 240);
+}
+.title2
+{
+    
+    color:rgb(69, 69, 69);
+}
+
+.des2
+{
+    color:rgb(69, 69, 69);
+}
+
+.logo0
+{
+    
+    background-color:rgb(24, 24, 24);
+}
+
+.logo1
+{
+    background-color:rgb(240, 240, 240);
+}
+
+.logo2
+{
+    background-color:rgb(69, 69, 69);
+}
+
+.type0
+{
+    color:rgb(252, 87, 27);
+    
+}
+
+.type1
+{
+    
+    color:rgb(158, 208, 227);
+}
+
+.type2
+{
+    color:rgb(69, 69, 69);
+}
+
+.dotOverride
+{
+    background-color:rgb(69, 69, 69);
+}
+
+.projectContent 
+{
+    
+    display:grid;
+    width: 100%;
+    margin-top:15px;
+    margin-right:15px;
+    margin-left:15px;
+    margin-bottom: 50px;
+    justify-content:center;
+    flex-wrap:wrap;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 15px;
+    row-gap: 15px;
+    z-index:1;
+}
+
+
+
+.productGrid 
+{
+    grid-template-areas: 
+    "zero zero one one two two"
+    "three three four four five five"
+    "three three six six five five"
+    "seven seven six six eight eight";
+    
+}
+
+.systemGrid
+{
+    grid-template-areas: 
+    "zero zero one one two two"
+    "three three four four two two"
+    "five five four four six six"
+    "five five seven seven eight eight";
+}
+
+.baseGrid
+{
+    grid-template-areas: 
+    "zero zero one one two two"
+    "zero zero one one three three"
+    "four four five five six six"
+    "seven seven eight eight six six";
+}
+
+.gridItem
+{
+    width:100%;
+    height:100%;
+    position:relative;
+    opacity:1;
+    
+}
+
+
+
+.projectImage
+{
+    object-fit:cover;
+    width:100%;
+    height:100%;
+    transition:0.2s;
+    border-radius: 2px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.gridItem:hover{
+    cursor: pointer;
+}
+
+.caption
+{
+    color:rgb(255, 255, 255);
+    font-family: aktiv-grotesk,serif;
+    font-size: 20px;
+    font-weight:300;
+    margin:10%;
+    text-align:left;
+    position:absolute;
+    z-index:110;
+    opacity:0;
+    transition:0.2s;
+    pointer-events: none;
+}
+
+
+
+.captionOuter
+{
+    position:relative;
+    width: inherit;
+    
+}
+
+
+
+.selected
+{
+    filter:invert(.5) brightness(.2);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  
+}
+
+.line
+{
+    background-color:white;
+    width:20px;
+    height: 20px;
+    border-radius: 10px;
+    left:50px;
+    position:absolute;
+    bottom:50px;
+    opacity:0;
+    z-index: 101;
+}
+.c-selected
+{
+    opacity: 1;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+    
+    .projectContent
+    {
+        
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .productGrid
+    {
+        grid-template-areas: 
+        "zero zero three three"
+        "one one three three"
+        "two two four four"
+        "seven seven five five"
+        "six six five five"
+        "six six eight eight";
+    }
+    .systemGrid
+    {
+        grid-template-areas: 
+        "zero zero one one"
+        "three three two two"
+        "five five two two"
+        "five five four four"
+        "six six four four"
+        "seven seven eight eight"; 
+    }
+
+    .baseGrid
+    {
+        grid-template-areas: 
+        "zero zero one one"
+        "zero zero one one"
+        "two two three three"
+        "four four five five"
+        "seven seven six six"
+        "eight eight six six"; 
+    }
+   
+  }
+
+@media screen and (max-width: 700px) {
+    
+    .projectContent
+    {
+        column-gap:0px;
+        row-gap:15px;
+        margin-right:0px;
+        margin-left:0px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .productGrid, .systemGrid, .baseGrid
+    {
+        grid-template-areas: 
+        "zero zero"
+        "one one"
+        "two two"
+        "three three"
+        "four four"
+        "five five"
+        "five five"
+        "six six"
+        "seven seven"
+        "eight eight";
+    }
+    .pageType
+    {
+        font-size:16px;
+        margin-right:-8px;
+        margin-left:30px;
+        float:right;
+        
+    }
+    .projectDot
+    {
+        width:18px;
+        height:18px;
+        margin-right:12px;
+    }
+    .pageTitle
+    {
+        font-size: 18px;
+    }
+
+    .projectInfoContainer
+    {
+        margin-top:140px;
+    }
+    .projectInfo
+    {
+        width:280px;
+    }
+    .projectDescription
+    {
+        font-size: 30px;
+    }
+    .caption{
+        font-size: 18px;
+    }
+    .projectLogoNill
+    {
+        width:150px;
+        height: 150px;
+    }
+    .projectBackground
+    {
+        height:450px;
+    }
+}
+
+#p0, #s0
+{
+    grid-area: zero;
+}
+#b0
+{
+    grid-area: zero;
+}
+
+#p1, #s1
+{
+    grid-area: one;
+}
+#b1
+{
+    
+    grid-area: one;  
+}
+
+#p2, #b2
+{
+    grid-area: two;
+}
+#s2
+{
+    
+    grid-area: two;
+}
+
+#p3
+{
+    grid-area: three;
+}
+
+#p3:before
+{
+    padding-top:5px;
+    padding-bottom:5px
+}
+#s3, #b3
+{
+    
+    grid-area: three;
+}
+
+#p4, #b4
+{
+    
+    grid-area: four;
+    
+}
+#s4
+{
+    
+    grid-area: four;
+}
+
+#p5, #s5
+{
+    
+    grid-area: five;
+}
+#b5
+{
+    grid-area: five; 
+}
+
+#p6
+{
+    
+    grid-area: six;
+}
+#s6
+{
+    grid-area: six;
+}
+#b6
+{
+    
+    grid-area: six;  
+}
+
+#p7, #s7, #b7
+{
+    
+    grid-area: seven;
+}
+#p8, #s8, #b8
+{
+    
+    grid-area: eight;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

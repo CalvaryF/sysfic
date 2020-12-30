@@ -1,0 +1,29 @@
+.feed 
+{
+    width: 100%;
+    margin:auto;
+    justify-content: center;
+    display:flex;
+    flex-wrap: wrap;
+    z-index:-10;
+    padding-top:50px;
+    margin-bottom:5vw;
+   
+}
+
+.post 
+{
+    background-color:rgb(227, 227, 227);
+    width:80%;
+    height: 50vw;
+    margin-top: 5vw;
+    position:relative;
+}
+
+@media screen and (max-width: 600px) {
+    .post {
+      width:100%;
+      
+      
+    }
+  }
