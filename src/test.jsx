@@ -15,8 +15,8 @@ function Info ()
                 
 
                 <div className="projectLeft"> 
-                <Sticky title={'Big Questions'}/>
-                <Sticky title={'Tools + Techniques'}/>
+                    <Sticky icon = {'/images/icon.svg'} color= {0} title={'Project Themes'} item1={'Non / Human boundary'} item2={'Proto-social networks'} item3={'Bio-Logistics'}/>
+                    <Sticky icon = {'/images/icon2.svg'}color= {1} title={'Tools + Techniques'} item1={'Research'} item2={'Prototyping'} item3={'Storyboarding'}/>
                 </div>
 
                 <div className="projectRight"> 

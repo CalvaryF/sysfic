@@ -132,10 +132,7 @@
     }
     .menuItem
     {
-        margin-right:8px;
+        margin-right:12px;
     }
-    .logoContainer:hover 
-    {
-   filter:brightness(100%);
-    }
+    
   }

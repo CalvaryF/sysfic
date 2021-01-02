@@ -14,6 +14,7 @@ body
     margin-top:0;
     background-color: rgb(240, 240, 240);
     text-decoration: none;
+    overflow-x: hidden;
 }
 
 a
@@ -47,7 +48,7 @@ float:right;
 
 .red
 {
-   background-color: #ff4329;
+   background-color: #ff897a;
 }
 
 .core

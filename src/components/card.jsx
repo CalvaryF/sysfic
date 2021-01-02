@@ -4,30 +4,30 @@
 
  class Card extends Component {
      state = {
-         type: this.props.type,
-         title: this.props.title,
-         thumbnail: this.props.thumbnail,
-         path:this.props.path
+         Type: this.props.type,
+         Title: this.props.title,
+         Thumbnail: this.props.thumbnail,
+         Path:this.props.path
      };
      render() { 
         
-         return (<Link to={this.state.path} className = "cardDiv">
+         return (<Link to={this.state.Path} className = "cardDiv">
              
              <div className="cardHead">  
-                <span className="cardTitle">{this.state.title}</span> 
+                <span className="cardTitle">{this.state.Title}</span> 
                 <div className = {this.dotColor()}> </div>
             </div>
-            <img className = "cardImage" src = {this.state.thumbnail} />
+            <img className = "cardImage" src = {this.state.Thumbnail} />
             
          </Link>);
      }
 
      dotColor() {
          let classes = "dot ";
-         if (this.state.type === 0) {
+         if (this.state.Type === 0) {
              classes += "crust";
          }
-         else if (this.state.type === 1) {
+         else if (this.state.Type === 1) {
              classes += "mantle";
          }
          else {

@@ -78,12 +78,134 @@
     font-family: aktiv-grotesk-extended,serif;
     font-size:20px;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 400;
     transform-origin: 0% 50%;
-    right:-198px;
+    right:-191px;
     transform: rotate(90deg);
     margin-top:115px;
     color:rgb(14, 14, 14);
     
+}
+
+@media screen and (max-width: 1550px) {
+
+    .projectHeadTitle
+    {
+        font-size: 28px;
+    }
+    .projectHeadText
+    {
+        font-size:18px;
+        
+    }
+    .projectHeadTextContainer
+    {
+        display: inline-block;
+        width: 500px;
+        vertical-align: middle;
+    }
+
+    .projectHead 
+    {
+        
+       height: 450px;
+    }
+    .projectHeadContent
+    {
+        position:absolute;
+        margin-left: 30px;
+        margin-top: 125px;
+
+    }
+
+    .projectDivider
+    {
+        height:450px;
+    
+    }
+
+}
+
+@media screen and (max-width: 920px) 
+{
+
+
+    .projectHead
+    {
+        display:flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .projectLogo
+    {
+        position:relative;
+        display:block;
+        width: 220px;
+        margin-bottom: 30px;
+        margin-right: 0px;
+    }
+
+    .projectHeadText
+    {
+        text-align: center;
+        display:none;
+        
+    }
+
+    .projectHeadContent
+    {
+        justify-content: center;
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0px;
+        margin-top: 150px;
+        width: 200px;
+
+    }
+
+    .projectHeadTitle
+    {
+        font-size:30px;
+        text-align: center;
+        display:block;
+    }
+
+    .projectVerticalText
+    {
+        font-size:18px;
+        font-weight: 400;
+        transform-origin: 0% 0%;
+        left:20px;
+        transform: rotate(0deg);
+        margin-top:78px;
+        width:50%;
+     
+    }
+
+    .projectVertical
+    {
+        position:absolute;
+        
+        margin-top:65px;
+     
+        
+    }
+
+    .projectDivider
+    {
+
+     height: 1px;
+     width: 100%;
+     margin-top: 110px;
+     background-color:rgb(228, 228, 228);
+   
+    }
+    .projectHeadTextContainer
+    {
+    
+        display:block;
+    }
+
 }
 
