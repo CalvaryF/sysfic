@@ -6,6 +6,7 @@
 @import "./components/footer.css";
 @import "./components/projectHead.css";
 @import "./components/cardTypes/projectCards.css";
+@import "./components/cardTypes/sticky.css";
 
 body 
 {

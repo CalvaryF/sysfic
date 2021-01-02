@@ -12,7 +12,7 @@
 .projectHeadContent
 {
     position:absolute;
-    margin-left: 30px;
+    margin-left: 50px;
     margin-top: 150px;
 
 }
@@ -21,9 +21,9 @@
 {
     position:relative;
     display: inline-block;
-    width: 270px;
+    width: 250px;
     vertical-align: middle;
-    margin-right: 30px;
+    margin-right: 50px;
 }
 
 .projectHeadTitle
@@ -113,7 +113,7 @@
     .projectHeadContent
     {
         position:absolute;
-        margin-left: 30px;
+        margin-left: 50px;
         margin-top: 125px;
 
     }

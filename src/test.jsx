@@ -4,6 +4,7 @@ import AllText from './components/cardTypes/allText';
 import TextImageText from './components/cardTypes/textImageText';
 import AllImage from './components/cardTypes/allImage';
 import Sticky from './components/cardTypes/sticky';
+import MultiImage from './components/cardTypes/multiImage';
 
 
 function Info ()
@@ -25,6 +26,7 @@ function Info ()
                     <AllImage title={"ocular vision"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} />
                     <AllImage title={"Bone Minimalism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} />
                     <TextImageText title={"infrahumanism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} subtitle1={'Tracable Transplants'} subtitle2={'Remember Where You Are'}/>
+                    <MultiImage  title = {'breakdown'}/>
              
                 </div>
 
