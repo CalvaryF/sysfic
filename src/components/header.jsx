@@ -15,7 +15,7 @@ class Header extends Component {
              <div className="divider"></div>
             
                 <div className="headerMenu menuItem"> 
-                    <Link to="/" className ={this.props.location.pathname.includes('/work') ?"menuItem  menuItemSelected":"menuItem selectable"}>Work</Link>
+                    <Link to="/" className ={this.props.location.pathname.includes('/test') ?"menuItem  menuItemSelected":"menuItem selectable"}>Work</Link>
                     <Link to ="/feed" className = {this.props.location.pathname === '/feed'?"menuItem  menuItemSelected":"menuItem selectable"}>Feed</Link>
                     <Link to ="/info" className = {this.props.location.pathname === '/info'?"menuItem  menuItemSelected":"menuItem selectable"}>Info</Link>
                     

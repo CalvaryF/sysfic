@@ -21,12 +21,13 @@ function Info ()
                 </div>
 
                 <div className="projectRight"> 
+                <MultiImage  title = {'breakdown'} captionHead2 ={'wow... another one'} captionHead1 = {'Dont blink, its a caption'} caption1={'This is a motherfucking caption, mess around and see. Yeah, thats what I thought'}/>
                     <TextImageText title={"infrahumanism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} subtitle1={'Tracable Transplants'} subtitle2={'Remember Where You Are'}/>
                     <AllText title ={'soul control'} subtitle1 ={"Extrastatecraft"} subtitle2 = {"The Ikea Effect"} />
                     <AllImage title={"ocular vision"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} />
                     <AllImage title={"Bone Minimalism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} />
                     <TextImageText title={"infrahumanism"} caption={'This is a motherfucking caption, mess around and see. yeah, thats what I thought'} subtitle1={'Tracable Transplants'} subtitle2={'Remember Where You Are'}/>
-                    <MultiImage  title = {'breakdown'}/>
+                    
              
                 </div>
 
