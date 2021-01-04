@@ -1,221 +1,178 @@
-.projectHead 
-{
-    
-    display:block;
-    width: 100%;
-    height:500px;
-    background-color:rgb(250, 250, 250);
-    border-bottom: 1px solid lightgray;
-    margin-bottom: 60px;
+.projectHead {
+  display: block;
+  width: 100%;
+  height: 500px;
+  background-color: rgb(250, 250, 250);
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 60px;
+  display: flex;
+  justify-content: center;
 }
 
-.projectHeadContent
-{
-    position:absolute;
-    margin-left: 50px;
-    margin-top: 150px;
-
+.projectHeadContent {
+  position: absolute;
+  margin-top: 150px;
+  width: 1500px;
 }
 
-.projectLogo
-{
-    position:relative;
-    display: inline-block;
-    width: 270px;
-    vertical-align: middle;
-    margin-right: 30px;
-    filter:drop-shadow( 0 1px 2px rgba(0,0,0,0.06)) drop-shadow( 0 1px 1px rgba(0,0,0,0.12));
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    border-radius: 10px;;
+.projectLogo {
+  position: relative;
+  display: inline-block;
+  width: 270px;
+  vertical-align: middle;
+  margin-right: 30px;
+  filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.06))
+    drop-shadow(0 1px 1px rgba(0, 0, 0, 0.12));
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  border-radius: 10px;
 }
 
-.projectLogo:hover
-{
-    margin-top:-20px;
-    margin-bottom:20px;
-    filter:drop-shadow( 0 14px 28px rgba(0,0,0,0.07) ) drop-shadow(0 10px 10px rgba(0,0,0,0.11)) ;
+.projectLogo:hover {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  filter: drop-shadow(0 14px 28px rgba(0, 0, 0, 0.07))
+    drop-shadow(0 10px 10px rgba(0, 0, 0, 0.11));
 }
 
-.projectHeadTitle
-{
-    font-family: aktiv-grotesk-extended,serif;
-    font-size: 32px;
-    text-transform: uppercase;
-    font-weight: 600;
-    margin-bottom: 15px;
+.projectHeadTitle {
+  font-family: aktiv-grotesk-extended, serif;
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
-.projectHeadText
-{
-    color:rgb(96, 96, 96);
-    position:relative;
-    font-size: 22px;
-    font-family: ff-meta-serif-web-pro, serif;
-    
+.projectHeadText {
+  color: rgb(96, 96, 96);
+  position: relative;
+  font-size: 22px;
+  font-family: ff-meta-serif-web-pro, serif;
 }
 
-.projectHeadTextContainer
-{
-    display: inline-block;
-    width: 600px;
-    vertical-align: middle;
+.projectHeadTextContainer {
+  display: inline-block;
+  width: 600px;
+  vertical-align: middle;
 }
 
-.projectDivider
-{
-    position:absolute;
-    right:0px;
-    height: 500px; 
-    width: 65px;
-    
-    border-left: 1px solid rgb(193, 193, 193);
- 
+.projectDivider {
+  position: absolute;
+  right: 0px;
+  height: 500px;
+  width: 65px;
+
+  border-left: 1px solid rgb(193, 193, 193);
 }
 
-
-
-.projectVertical
-{
-    position:absolute;
-    right:6px;
-    margin-top:80px;
-    
+.projectVertical {
+  position: absolute;
+  right: 6px;
+  margin-top: 80px;
 }
 
-.projectVerticalText
-{
-    position:absolute;
-    font-family: aktiv-grotesk-extended,serif;
-    font-size:20px;
-    text-transform: uppercase;
-    font-weight: 400;
-    transform-origin: 0% 50%;
-    right:-191px;
-    transform: rotate(90deg);
-    margin-top:115px;
-    color:rgb(142, 142, 142);
-    
+.projectVerticalText {
+  position: absolute;
+  font-family: aktiv-grotesk-extended, serif;
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 400;
+  transform-origin: 0% 50%;
+  right: -191px;
+  transform: rotate(90deg);
+  margin-top: 115px;
+  color: rgb(142, 142, 142);
 }
 
 @media screen and (max-width: 1550px) {
+  .projectHeadTitle {
+    font-size: 28px;
+  }
+  .projectHeadText {
+    font-size: 18px;
+  }
+  .projectHeadTextContainer {
+    display: inline-block;
+    width: 430px;
+    vertical-align: middle;
+  }
 
-    .projectHeadTitle
-    {
-        font-size: 28px;
-    }
-    .projectHeadText
-    {
-        font-size:18px;
-        
-    }
-    .projectHeadTextContainer
-    {
-        display: inline-block;
-        width: 500px;
-        vertical-align: middle;
-    }
+  .projectHead {
+    height: 450px;
+    display: flex;
+    justify-content: center;
+  }
+  .projectHeadContent {
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 150px;
+    width: 800px;
+    justify-self: center;
+  }
 
-    .projectHead 
-    {
-        
-       height: 450px;
-    }
-    .projectHeadContent
-    {
-        position:absolute;
-        margin-left: 50px;
-        margin-top: 125px;
+  .projectDivider {
+    height: 450px;
+  }
 
-    }
+  .projectVerticalText {
+    font-size: 18px;
+    font-weight: 400;
+    transform-origin: 0% 0%;
+    left: 20px;
+    transform: rotate(0deg);
+    margin-top: 78px;
+    width: 50%;
+  }
 
-    .projectDivider
-    {
-        height:450px;
-    
-    }
+  .projectVertical {
+    position: absolute;
 
+    margin-top: 65px;
+  }
+
+  .projectDivider {
+    height: 1px;
+    width: 100%;
+    margin-top: 110px;
+    background-color: rgb(228, 228, 228);
+  }
 }
 
-@media screen and (max-width: 920px) 
-{
+@media screen and (max-width: 920px) {
+  .projectHead {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
 
+  .projectLogo {
+    position: relative;
+    display: block;
+    width: 220px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
 
-    .projectHead
-    {
-        display:flex;
-        justify-content: center;
-        width: 100%;
-    }
+  .projectHeadText {
+    text-align: center;
+    display: none;
+  }
 
-    .projectLogo
-    {
-        position:relative;
-        display:block;
-        width: 220px;
-        margin-bottom: 30px;
-        margin-right: 0px;
-    }
+  .projectHeadContent {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0px;
+    margin-top: 150px;
+    width: 200px;
+  }
 
-    .projectHeadText
-    {
-        text-align: center;
-        display:none;
-        
-    }
+  .projectHeadTitle {
+    font-size: 30px;
+    text-align: center;
+    display: block;
+  }
 
-    .projectHeadContent
-    {
-        justify-content: center;
-        display: flex;
-        flex-wrap: wrap;
-        margin-left: 0px;
-        margin-top: 150px;
-        width: 200px;
-
-    }
-
-    .projectHeadTitle
-    {
-        font-size:30px;
-        text-align: center;
-        display:block;
-    }
-
-    .projectVerticalText
-    {
-        font-size:18px;
-        font-weight: 400;
-        transform-origin: 0% 0%;
-        left:20px;
-        transform: rotate(0deg);
-        margin-top:78px;
-        width:50%;
-     
-    }
-
-    .projectVertical
-    {
-        position:absolute;
-        
-        margin-top:65px;
-     
-        
-    }
-
-    .projectDivider
-    {
-
-     height: 1px;
-     width: 100%;
-     margin-top: 110px;
-     background-color:rgb(228, 228, 228);
-   
-    }
-    .projectHeadTextContainer
-    {
-    
-        display:block;
-    }
-
+  .projectHeadTextContainer {
+    display: block;
+  }
 }
-

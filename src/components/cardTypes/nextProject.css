@@ -1,0 +1,86 @@
+.nextProjectContainer {
+  display: flex;
+  justify-content: center;
+  flex-wrap: flex;
+  height: 400px;
+}
+
+.nextProjectContainer2 {
+  width: 1520px;
+  margin-top: 40px;
+}
+
+.darken {
+  color: rgb(14, 14, 14);
+}
+
+.nextProjectDivider {
+  width: 1520px;
+  height: 1px;
+  background-color: lightgray;
+  margin-bottom: 30px;
+  display: block;
+  position: relative;
+}
+
+.nextProject {
+  display: block;
+  position: relative;
+  width: 100%;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-top: 50px;
+  background-color: #ff6f5c;
+  background-color: rgb(250, 250, 250);
+}
+
+.nextProject:hover {
+  margin-top: 30px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.nextProjectText {
+  font-size: 22px;
+  font-weight: 400;
+  font-family: aktiv-grotesk-extended, serif;
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+.nextProjectTextContainer {
+  width: 500px;
+  height: 100%;
+  display: inline-block;
+}
+
+.nextImage {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(235, 235, 235);
+  display: inline-block;
+}
+
+.nextProjectBody {
+  width: 100%;
+  height: 300px;
+  display: grid;
+  grid-template-columns: 400px auto;
+}
+
+.projectName {
+  font-family: aktiv-grotesk-extended, serif;
+  font-size: 30px;
+  margin-left: 60px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 50px;
+  display: inline-block;
+  height: 100%;
+}
+
+@media screen and (max-width: 1550px) {
+  .nextProject {
+    height: 300px;
+    width: 1050px;
+  }
+}

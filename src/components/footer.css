@@ -1,71 +1,60 @@
-.footerMain
-{
-    position: relative;
-    margin-top:60px;
-    height: 270px;
-    width: 100%;
-    background-color:rgb(30,30,30);
-    color:white;
+.footerMain {
+  position: relative;
+  margin-top: 100px;
+  height: 270px;
+  width: 100%;
+  background-color: rgb(30, 30, 30);
+  color: white;
 }
 
-.contact
-{
-    color:white;
-    font-family: uniwars, sans-serif;
-    margin-left: 30px;
-    padding-top: 50px;
-    font-size: 22px;
-    font-weight: 200;
-    line-height: 2;
+.contact {
+  color: white;
+  font-family: uniwars, sans-serif;
+  margin-left: 30px;
+  padding-top: 50px;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 2;
 }
 
-.contactButton 
-{
-    display:inline-block;
-    padding-left:12px;
-    padding-right:12px;
-    border-width:1px;
-    border-style:solid;
-    color:#ffffff;
-    border-radius: 2px;
+.contactButton {
+  display: inline-block;
+  padding-left: 12px;
+  padding-right: 12px;
+  border-width: 1px;
+  border-style: solid;
+  color: #ffffff;
+  border-radius: 2px;
 }
 
-.contactButton:hover 
-{
-    color:rgb(30,30,30);
-    background-color: white;
-    border-width:1px;
-    border-style:solid;
+.contactButton:hover {
+  color: rgb(30, 30, 30);
+  background-color: white;
+  border-width: 1px;
+  border-style: solid;
 }
 
-.links 
-{
-    position:absolute;
-    bottom: 40px;
-    color:white;
-   width: 100%;
-    font-size: 15px;
-    font-family: aktiv-grotesk-extended,serif;
-    
-    
+.links {
+  position: absolute;
+  bottom: 40px;
+  color: white;
+  width: 100%;
+  font-size: 15px;
+  font-family: aktiv-grotesk-extended, serif;
 }
 
-.footerLink
-{
-    
-    color:white;
-    margin-left: 30px;
+.footerLink {
+  color: white;
+  margin-left: 30px;
 }
 
-.footerLink:hover
-{
-    color:#a5a5a5;
+.footerLink:hover {
+  color: #a5a5a5;
 }
 
-.copyright
-{
-    margin-right: 30px;
-    float:right;
-    font-size: 15px;
-    font-family: aktiv-grotesk-extended,serif;
+.copyright {
+  margin-right: 30px;
+  float: right;
+  font-size: 15px;
+  font-family: aktiv-grotesk-extended, serif;
 }
