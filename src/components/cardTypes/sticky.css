@@ -115,6 +115,14 @@
   }
 }
 
+@media screen and (max-width: 1100px) {
+  .projectSticky {
+    width: 440px;
+    height: 330px;
+    margin-bottom: 0px;
+  }
+}
+
 @media screen and (max-width: 920px) {
   .stickyShadowWrapper {
     width: 100%;

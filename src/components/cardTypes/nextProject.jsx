@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Link, withRouter } from "react-router-dom";
 
 class Card extends Component {
   state = {
@@ -10,20 +11,27 @@ class Card extends Component {
         <div className="nextProjectContainer2">
           <div className="nextProjectDivider"></div>
 
-          <div className="nextProject">
+          <Link className="nextProject" to="/">
             <div className="projectCardHead lighten">
               <span className="projectCardTitle darken">
                 next project &#8594;
               </span>
-              <div className="dot cloud"></div>
+              <div className="dot core"></div>
             </div>
 
             <div className="nextProjectBody">
-              <div className="nextProjectTextContainer"></div>
+              <div className="nextProjectTextContainer">
+                <div className="nextProjectName"> startopolis </div>
+                <div className="nextProjectText">
+                  {" "}
+                  Lorem ipsum dolor sit amet, con sectetuer adipiscing elit,
+                  diam
+                </div>
+              </div>
 
               <div className="nextImage"> </div>
             </div>
-          </div>
+          </Link>
         </div>
       </div>
     );

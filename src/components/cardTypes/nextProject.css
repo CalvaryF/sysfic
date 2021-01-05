@@ -39,18 +39,33 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.nextProjectText {
-  font-size: 22px;
-  font-weight: 400;
-  font-family: aktiv-grotesk-extended, serif;
-  margin-top: 30px;
-  margin-left: 30px;
-}
-
 .nextProjectTextContainer {
-  width: 500px;
+  width: 100%;
   height: 100%;
   display: inline-block;
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.nextProjectName {
+  font-family: aktiv-grotesk-extended, serif;
+  font-size: 28px;
+  margin-left: 0px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-top: 90px;
+  display: inline-block;
+}
+
+.nextProjectText {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: ff-meta-serif-web-pro, serif;
+  margin-top: -80px;
+  margin-left: 0px;
+  width: 320px;
+  text-align: center;
 }
 
 .nextImage {
@@ -64,23 +79,88 @@
   width: 100%;
   height: 300px;
   display: grid;
-  grid-template-columns: 400px auto;
-}
-
-.projectName {
-  font-family: aktiv-grotesk-extended, serif;
-  font-size: 30px;
-  margin-left: 60px;
-  text-transform: uppercase;
-  font-weight: 600;
-  margin-top: 50px;
-  display: inline-block;
-  height: 100%;
+  grid-template-columns: 470px auto;
 }
 
 @media screen and (max-width: 1550px) {
   .nextProject {
-    height: 300px;
     width: 1050px;
+  }
+  .nextProjectContainer2 {
+    width: 1050px;
+  }
+
+  .nextProjectDivider {
+    width: 1050px;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .nextProject {
+    width: 900px;
+  }
+  .nextProjectContainer2 {
+    width: 900px;
+  }
+
+  .nextProjectDivider {
+    width: 900px;
+  }
+
+  .nextProjectBody {
+    grid-template-columns: 400px auto;
+  }
+
+  .nextProjectName {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 910px) {
+  .nextProject {
+    width: 100%;
+  }
+  .nextProjectContainer2 {
+    width: 100%;
+  }
+
+  .nextProjectBody {
+    grid-template-columns: 100%;
+    grid-template-rows: 250px;
+  }
+
+  .nextProjectTextContainer {
+    width: 100%;
+    height: 200px;
+    display: block;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .nextProjectName {
+    width: 100%;
+    text-align: center;
+  }
+
+  .nextProjectText {
+    font-size: 20px;
+    font-weight: 400;
+    font-family: ff-meta-serif-web-pro, serif;
+    margin-top: 0px;
+
+    width: 320px;
+    text-align: center;
+  }
+
+  .nextProjectBody {
+    height: 300px;
+  }
+
+  .nextProjectDivider {
+    width: 100%;
+  }
+
+  .nextImage {
+    display: none;
   }
 }

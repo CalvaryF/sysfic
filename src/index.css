@@ -17,6 +17,11 @@ body {
   overflow-x: hidden;
 }
 
+.resize-animation-stopper * {
+  animation: none !important;
+  transition: none !important;
+}
+
 a {
   text-decoration: none;
   color: black;

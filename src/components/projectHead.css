@@ -175,4 +175,13 @@
   .projectHeadTextContainer {
     display: block;
   }
+
+  .projectVertical {
+    display: none;
+  }
+
+  .projectVerticalText {
+    width: 200px;
+    font-size: 16px;
+  }
 }
