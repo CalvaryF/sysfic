@@ -1,154 +1,124 @@
-.info
-{
-    display:flex; 
-    justify-content:center;
-    height:100vh;
-    
-   
+.info {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
 }
 
-.infoHeader
-{
-    font-family: aktiv-grotesk-extended;
-    font-weight:600;
-    font-size: 18px;
-    margin:30px;
+.infoHeader {
+  font-family: aktiv-grotesk-extended;
+  font-weight: 600;
+  font-size: 18px;
+  margin: 30px;
 }
 
-.imageCard 
-{
-    width:400px;
-    height:600px;
-    background-color:white;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-    margin-bottom:0px;
-    display:inline-block;
-    place-self:center;
-    
+.imageCard {
+  width: 400px;
+  height: 600px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  margin-bottom: 0px;
+  display: inline-block;
+  place-self: center;
 }
 
-.imageCard:hover
-{
-    margin-top:-10px;
-    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+.imageCard:hover {
+  margin-top: -10px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 
-.por 
-{
-    display:grid;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    grid-gap: 4rem;
-    margin-top: 120px;
-    opacity: .95;
-    width:80%;
-    flex-wrap: wrap;
-    justify-content: center;   
-    max-width:1920px;
-    margin-bottom:70px;
+.por {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+  grid-gap: 5rem;
+  margin-top: 120px;
+  opacity: 0.95;
+  width: 50%;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 1920px;
+  margin-bottom: 70px;
 }
 
-.cardOutline
-{
-background-color:none;
-border: 2px solid white;
-width: 400px;
-height: 600px;
-
+.cardOutline {
+  background-color: none;
+  border: 2px solid white;
+  width: 400px;
+  height: 600px;
+  justify-self: center;
 }
 
-
-.infoHead 
-{
-background-color:white;
-height:48px;
-width:100%;
+.infoHead {
+  background-color: white;
+  height: 48px;
+  width: 100%;
 }
 
-.infoImage 
-{
-    
-    width:400px;
-    height:370px;
-    object-fit: cover;
-    display:block;
+.infoImage {
+  width: 400px;
+  height: 370px;
+  object-fit: cover;
+  display: block;
 }
 
-.infoTextDiv 
-{
-    margin:auto;
-    padding-top:20px;
-    padding-bottom:30px;
-    width:90%;
-    text-align: center;
-    font-family: ff-meta-serif-web-pro, serif;
-    font-weight: 400;
-    font-style: normal;
-    font-size: 16px;
-    color:rgb(87, 87, 87);
+.infoTextDiv {
+  margin: auto;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  width: 90%;
+  text-align: center;
+  font-family: ff-meta-serif-web-pro, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  color: rgb(87, 87, 87);
 }
 
-
-
-
-.infoBackground 
-{
-    object-fit:cover;
-    z-index:-10;
-    position:absolute;
-    
+.infoBackground {
+  object-fit: cover;
+  z-index: -10;
+  position: absolute;
 }
 
 @media screen and (max-width: 480px) {
-    .imageCard
-    {
-        width:90%;
-    }
-    .por
-    {
-        margin-top:80px;
-        width:100%;
-        justify-self: center;
-        margin-bottom:50px;
-    }
-    .infoTextDiv
-    {
-        font-size:14px;
-        width:85%;
-        
-    }
-    .infoImage{
-        width:100%;
-    }
-
+  .imageCard {
+    width: 90%;
   }
-
- 
-
-  .exLink
-  {
-      width:100%;
-      height: 73px;
-      text-align:center;
-      padding-top:25px;
-      background-color:rgb(235, 235, 235);
-      border-radius: 2px;
-      margin-bottom:10px;
-      font-family: aktiv-grotesk-extended, serif;
-      font-size: 30px;
-      font-weight: 700;
-      position:relative;
-      display:block;
+  .por {
+    margin-top: 80px;
+    width: 100%;
+    justify-self: center;
+    margin-bottom: 50px;
   }
-
-  .exLink:hover
-  {
-      background-color:rgb(205, 230, 252);
+  .infoTextDiv {
+    font-size: 14px;
+    width: 85%;
   }
-
-  .linkBox
-  {
-      margin:20px;
-      margin-top:50px;
+  .infoImage {
+    width: 100%;
   }
+}
 
+.exLink {
+  width: 100%;
+  height: 73px;
+  text-align: center;
+  padding-top: 25px;
+  background-color: rgb(235, 235, 235);
+  border-radius: 2px;
+  margin-bottom: 10px;
+  font-family: aktiv-grotesk-extended, serif;
+  font-size: 30px;
+  font-weight: 700;
+  position: relative;
+  display: block;
+}
+
+.exLink:hover {
+  background-color: rgb(205, 230, 252);
+}
+
+.linkBox {
+  margin: 20px;
+  margin-top: 50px;
+}

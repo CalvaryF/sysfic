@@ -18,6 +18,14 @@
 }
 
 .contactButton {
+  color: white;
+  font-family: uniwars, sans-serif;
+  margin-left: 30px;
+  font-size: 22px;
+  font-weight: 200;
+  line-height: 2;
+  background-color: rgb(30, 30, 30);
+  margin-bottom: 0px;
   display: inline-block;
   padding-left: 12px;
   padding-right: 12px;
@@ -36,7 +44,7 @@
 
 .links {
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
   color: white;
   width: 100%;
   font-size: 15px;
@@ -52,9 +60,88 @@
   color: #a5a5a5;
 }
 
+.contactContainer {
+  margin-bottom: 40px;
+}
+
 .copyright {
   margin-right: 30px;
   float: right;
   font-size: 15px;
   font-family: aktiv-grotesk-extended, serif;
+}
+
+.linkContainer {
+  margin-bottom: 0;
+  margin-top: 0px;
+}
+
+@media screen and (max-width: 910px) {
+  .footerMain {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .footerLink {
+    color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+
+  .links {
+    position: absolute;
+    width: 70%;
+    text-align: center;
+    line-height: 30px;
+    bottom: 25px;
+  }
+
+  .copyright {
+    float: none;
+    position: relative;
+    text-align: center;
+    margin: 0;
+  }
+
+  .linkContainer {
+    margin-bottom: 0px;
+  }
+
+  .contactContainer {
+    justify-content: center;
+  }
+
+  .contact {
+    color: white;
+    font-family: uniwars, sans-serif;
+    margin-left: 0px;
+    padding-top: 40px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 2;
+    justify-content: center;
+  }
+
+  .contactButton {
+    z-index: 200;
+    margin-bottom: 60px;
+    color: white;
+    text-align: center;
+    font-family: uniwars, sans-serif;
+    margin-left: 0px;
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 2;
+    background-color: rgb(30, 30, 30);
+    display: block;
+    width: 350px;
+    padding-left: 12px;
+    padding-right: 12px;
+    border-width: 1px;
+    border-style: solid;
+    color: #ffffff;
+    border-radius: 2px;
+    justify-content: center;
+  }
 }
