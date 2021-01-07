@@ -116,7 +116,20 @@
   }
 }
 
-@media screen and (max-width: 910px) {
+@media screen and (max-width: 900px) {
+  .nextProject {
+    width: 768px;
+  }
+  .nextProjectContainer2 {
+    width: 768px;
+  }
+
+  .nextProjectDivider {
+    width: 768px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .nextProject {
     width: 100%;
   }

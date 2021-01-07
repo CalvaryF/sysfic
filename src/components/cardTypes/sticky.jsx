@@ -41,7 +41,7 @@ class Card extends Component {
 
   cardHeadColor() {
     if (this.state.Color == 0) {
-      return " stickyBlue";
+      return " stickyRed";
     } else {
       return " stickyGrey";
     }
@@ -49,7 +49,7 @@ class Card extends Component {
 
   cardBackColor() {
     if (this.state.Color == 0) {
-      return " stickyBlueBack";
+      return " stickyRedBack";
     } else {
       return " stickyGreyBack";
     }

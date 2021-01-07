@@ -8,7 +8,7 @@ function Info() {
         <div className="imageCard">
           <div className="infoHead">
             <span className="cardTitle">@calv</span>
-            <div className="dot crust"></div>
+            <div className="dot cloud"></div>
           </div>
           <img
             className="infoImage"
@@ -29,19 +29,19 @@ function Info() {
         <div className="imageCard">
           <div className="linkBox">
             <Link to="/" className="exLink">
-              Instagram{" "}
+              Instagram &#8594;
             </Link>
             <Link to="/" className="exLink">
-              Twitter
+              Twitter &#8594;
             </Link>
             <Link to="/" className="exLink">
-              Tiktok
+              Tiktok &#8594;
             </Link>
             <Link to="/" className="exLink">
-              Medium
+              Medium &#8594;
             </Link>
             <Link to="/" className="exLink">
-              Linkedin
+              Linkedin &#8594;
             </Link>
           </div>
         </div>

@@ -76,12 +76,22 @@
 }
 
 .stickyBlue {
+  background-color: rgb(167, 214, 255);
+  color: rgb(213, 213, 213);
+  border-bottom: 1px solid rgb(173, 198, 220);
+}
+
+.stickyBlueBack {
+  background-color: rgb(205, 230, 252);
+}
+
+.stickyRed {
   background-color: #ff5640;
   color: rgb(213, 213, 213);
   border-bottom: 1px solid #d52d16;
 }
 
-.stickyBlueBack {
+.stickyRedBack {
   background-color: #ff6f5c;
 }
 
@@ -123,7 +133,19 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 900px) {
+  .projectSticky {
+    width: 375px;
+    height: 330px;
+    margin-bottom: 0px;
+  }
+
+  .stickyCopy {
+    font-size: 18px;
+  }
+}
+
+@media screen and (max-width: 768px) {
   .stickyShadowWrapper {
     width: 100%;
     margin-left: 0;
