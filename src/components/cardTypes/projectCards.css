@@ -91,13 +91,23 @@
 }
 
 .projectCardImageBody {
-  height: 600px;
-  padding-bottom: 65px;
+  padding-bottom: 30px;
 }
 
 .projectCardImage {
   height: 100%;
   background-color: rgb(244, 244, 244);
+}
+
+.projectCardImageImage {
+  display: block;
+  width: 100%;
+  z-index: 4;
+}
+
+.zoom {
+  display: block;
+  width: 100%;
 }
 
 .projectCardCaption {

@@ -1,6 +1,17 @@
 import React, { Component } from "react";
+import ImageZoom from "./imageZoom";
+import mediumZoom from "medium-zoom";
 
 class Card extends Component {
+  zoom = mediumZoom({
+    background: "#000",
+    margin: 20,
+    scrollOffset: 0,
+    container: {
+      top: 64,
+    },
+  });
+
   state = {
     Title: this.props.title,
     Caption1: this.props.caption1,
@@ -22,7 +33,14 @@ class Card extends Component {
 
         <div className="projectMultiImageBody">
           <div className="multiImageContainer">
-            <div className="multiImageImage"></div>
+            <div className="multiImageImage">
+              <ImageZoom
+                className="projectCardImageImage"
+                src={"/images/image2.png"}
+                zoom={this.zoom}
+                color="#303030"
+              />
+            </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead1}
             </div>
@@ -30,7 +48,14 @@ class Card extends Component {
           </div>
 
           <div className="multiImageContainer">
-            <div className="multiImageImage"></div>
+            <div className="multiImageImage">
+              <ImageZoom
+                className="projectCardImageImage"
+                src={"/images/image2.png"}
+                zoom={this.zoom}
+                color="#303030"
+              />
+            </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead2}
             </div>
@@ -38,7 +63,14 @@ class Card extends Component {
           </div>
 
           <div className="multiImageContainer">
-            <div className="multiImageImage"></div>
+            <div className="multiImageImage">
+              <ImageZoom
+                className="projectCardImageImage"
+                src={"/images/image2.png"}
+                zoom={this.zoom}
+                color="#303030"
+              />
+            </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead1}
             </div>
@@ -46,7 +78,14 @@ class Card extends Component {
           </div>
 
           <div className="multiImageContainer">
-            <div className="multiImageImage"></div>
+            <div className="multiImageImage">
+              <ImageZoom
+                className="projectCardImageImage"
+                src={"/images/image2.png"}
+                zoom={this.zoom}
+                color="#303030"
+              />
+            </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead1}
             </div>

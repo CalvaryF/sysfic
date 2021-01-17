@@ -1,6 +1,17 @@
 import React, { Component } from "react";
+import ImageZoom from "./imageZoom";
+import mediumZoom from "medium-zoom";
 
 class Card extends Component {
+  zoom = mediumZoom({
+    background: "#000",
+    margin: 20,
+    scrollOffset: 0,
+    container: {
+      top: 64,
+    },
+  });
+
   state = {
     Title: this.props.title,
     Caption: this.props.caption,
@@ -29,7 +40,14 @@ class Card extends Component {
           </div>
 
           <div className="projectCardImageBody">
-            <div className="projectCardImage"> </div>
+            <div className="projectCardImage">
+              <ImageZoom
+                className="projectCardImageImage"
+                src={"/images/image.png"}
+                zoom={this.zoom}
+                color="#303030"
+              />
+            </div>
             <div className="projectCardCaption"> {this.state.Caption} </div>
           </div>
           <br></br>

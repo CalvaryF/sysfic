@@ -17,7 +17,7 @@
 .nextProjectDivider {
   width: 1520px;
   height: 1px;
-  background-color: lightgray;
+  background-color: rgb(193, 193, 193);
   margin-bottom: 30px;
   display: block;
   position: relative;

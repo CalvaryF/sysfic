@@ -75,7 +75,7 @@ function Info() {
           />
         </div>
       </div>
-      <NextProject />
+      <NextProject title={"startopolis"} />
     </div>
   );
 }

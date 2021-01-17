@@ -21,7 +21,7 @@ class Card extends Component {
 
             <div className="nextProjectBody">
               <div className="nextProjectTextContainer">
-                <div className="nextProjectName"> startopolis </div>
+                <div className="nextProjectName"> {this.state.Title} </div>
                 <div className="nextProjectText">
                   {" "}
                   Lorem ipsum dolor sit amet, con sectetuer adipiscing elit,
