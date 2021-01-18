@@ -8,7 +8,14 @@ class Header extends Component {
   };
 
   handleClick = () => {
-    this.setState({ clicked: !this.state.clicked });
+    if (window.innerWidth < 910) {
+      this.setState({ clicked: !this.state.clicked });
+      if (this.state.clicked === false) {
+        document.body.style.overflow = "hidden";
+      } else {
+        document.body.style.overflow = "visible";
+      }
+    }
   };
 
   render() {
@@ -18,7 +25,7 @@ class Header extends Component {
           <Link className="logoContainer" to="/">
             {" "}
             <img className="logo" src="/images/new_logo.svg" alt="logo" />
-            <span className="subItem name">CALVARY FISHER</span>
+            <span className="subItem name">SYSTEMS FICTION</span>
           </Link>
           <div className="divider"></div>
           <div className="menuIcon" onClick={this.handleClick}>

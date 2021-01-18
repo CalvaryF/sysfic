@@ -200,3 +200,9 @@
     height: 380px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  .projectHead {
+    margin-bottom: 0px;
+  }
+}

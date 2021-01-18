@@ -16,7 +16,7 @@ class Card extends Component {
               <span className="projectCardTitle darken">
                 next project &#8594;
               </span>
-              <div className="dot core"></div>
+              <div className="dot red"></div>
             </div>
 
             <div className="nextProjectBody">

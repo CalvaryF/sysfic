@@ -100,9 +100,15 @@
 }
 
 .projectCardImageImage {
-  display: block;
   width: 100%;
   z-index: 4;
+}
+
+.des {
+  display: block;
+}
+.mob {
+  display: none;
 }
 
 .zoom {
@@ -212,11 +218,70 @@
   .projectCardParagraph {
     margin-top: 15px;
     font-size: 15px;
-    font-family: ff-meta-serif-web-pro, serif;
+
     width: 300px;
   }
 
   .projectCardSubtitle {
     font-size: 20px;
+  }
+
+  .des {
+    display: none;
+  }
+  .mob {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectContainer {
+    margin-top: 25px;
+  }
+
+  .projectCardParagraph {
+    margin-top: 15px;
+    font-size: 14px;
+    margin-left: 0px;
+    width: 97%;
+  }
+
+  .projectCardCopy {
+    margin-left: 3%;
+  }
+
+  .projectCardCaption {
+    margin-left: 3%;
+    margin-right: 3%;
+    padding-top: 10px;
+    font-size: 14px;
+  }
+
+  .projectCardImageBody {
+    padding-bottom: 5px;
+  }
+
+  .projectCardDiv {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    box-shadow: none;
+  }
+
+  .projectCardCopy {
+    padding-bottom: 30px;
+  }
+
+  .projectCardTitle {
+    font-size: 16px;
+    padding-top: 11px;
+    padding-left: 10px;
+  }
+
+  .projectCardBody {
+    margin-top: 30px;
+  }
+
+  .projectLeft {
+    margin-bottom: 0px;
   }
 }

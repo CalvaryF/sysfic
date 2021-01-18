@@ -8,21 +8,15 @@
 }
 
 .contact {
-  color: white;
-  font-family: uniwars, sans-serif;
   margin-left: 30px;
   padding-top: 50px;
-  font-size: 22px;
+
   font-weight: 200;
   line-height: 2;
 }
 
 .contactButton {
-  color: white;
-  font-family: uniwars, sans-serif;
   margin-left: 30px;
-  font-size: 22px;
-  font-weight: 200;
   line-height: 2;
   background-color: rgb(30, 30, 30);
   margin-bottom: 0px;
@@ -62,6 +56,10 @@
 
 .contactContainer {
   margin-bottom: 40px;
+  font-size: 22px;
+  color: white;
+  font-family: uniwars, sans-serif;
+  font-weight: 200;
 }
 
 .copyright {
@@ -69,6 +67,7 @@
   float: right;
   font-size: 15px;
   font-family: aktiv-grotesk-extended, serif;
+  color: rgb(128, 128, 128);
 }
 
 .linkContainer {
@@ -113,12 +112,8 @@
   }
 
   .contact {
-    color: white;
-    font-family: uniwars, sans-serif;
     margin-left: 0px;
     padding-top: 40px;
-    font-size: 22px;
-    font-weight: 200;
     line-height: 2;
     justify-content: center;
   }
@@ -126,22 +121,48 @@
   .contactButton {
     z-index: 200;
     margin-bottom: 60px;
-    color: white;
     text-align: center;
-    font-family: uniwars, sans-serif;
     margin-left: 0px;
-    font-size: 22px;
-    font-weight: 200;
     line-height: 2;
-    background-color: rgb(30, 30, 30);
     display: block;
     width: 350px;
     padding-left: 12px;
     padding-right: 12px;
-    border-width: 1px;
-    border-style: solid;
-    color: #ffffff;
-    border-radius: 2px;
     justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .contactContainer {
+    font-size: 18px;
+    justify-content: center;
+    text-align: center;
+    display: block;
+  }
+  .contact {
+    text-align: center;
+    display: block;
+  }
+  .contactButton {
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+    text-align: center;
+    display: block;
+  }
+
+  .links {
+    width: 90%;
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .copyright {
+    margin-top: 15px;
+  }
+
+  .footerMain {
+    height: 280px;
+    margin-top: 30px;
   }
 }

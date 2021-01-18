@@ -22,6 +22,10 @@ class Card extends Component {
     CaptionHead2: this.props.captionHead2,
     CaptionHead3: this.props.captionHead3,
     CaptionHead4: this.props.captionHead4,
+    Image1: this.props.image1,
+    Image2: this.props.image2,
+    Image3: this.props.image3,
+    Image4: this.props.image4,
   };
   render() {
     return (
@@ -33,13 +37,16 @@ class Card extends Component {
 
         <div className="projectMultiImageBody">
           <div className="multiImageContainer">
-            <div className="multiImageImage">
+            <div className="multiImageImage des">
               <ImageZoom
                 className="projectCardImageImage"
-                src={"/images/image2.png"}
+                src={this.state.Image1}
                 zoom={this.zoom}
-                color="#303030"
+                color="#d9d9d9"
               />
+            </div>
+            <div className="multiImageImage mob">
+              <img className="projectCardImageImage" src={this.state.Image1} />
             </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead1}
@@ -48,13 +55,16 @@ class Card extends Component {
           </div>
 
           <div className="multiImageContainer">
-            <div className="multiImageImage">
+            <div className="multiImageImage des">
               <ImageZoom
                 className="projectCardImageImage"
-                src={"/images/image2.png"}
+                src={this.state.Image2}
                 zoom={this.zoom}
-                color="#303030"
+                color="#d9d9d9"
               />
+            </div>
+            <div className="multiImageImage mob">
+              <img className="projectCardImageImage" src={this.state.Image2} />
             </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead2}
@@ -63,13 +73,16 @@ class Card extends Component {
           </div>
 
           <div className="multiImageContainer">
-            <div className="multiImageImage">
+            <div className="multiImageImage des">
               <ImageZoom
                 className="projectCardImageImage"
-                src={"/images/image2.png"}
+                src={this.state.Image3}
                 zoom={this.zoom}
-                color="#303030"
+                color="#d9d9d9"
               />
+            </div>
+            <div className="multiImageImage mob">
+              <img className="projectCardImageImage" src={this.state.Image3} />
             </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead1}
@@ -78,13 +91,16 @@ class Card extends Component {
           </div>
 
           <div className="multiImageContainer">
-            <div className="multiImageImage">
+            <div className="multiImageImage des">
               <ImageZoom
                 className="projectCardImageImage"
-                src={"/images/image2.png"}
+                src={this.state.Image4}
                 zoom={this.zoom}
-                color="#303030"
+                color="#d9d9d9"
               />
+            </div>
+            <div className="multiImageImage mob">
+              <img className="projectCardImageImage" src={this.state.Image4} />
             </div>
             <div className="multiImageCaptionHead">
               {this.state.CaptionHead1}

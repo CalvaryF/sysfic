@@ -11,12 +11,22 @@ class Card extends Component {
       top: 64,
     },
   });
+  zoomMobile = mediumZoom({
+    background: "#000",
+    margin: 0,
+    scrollOffset: 0,
+    container: {
+      top: 64,
+    },
+  });
 
   state = {
     Title: this.props.title,
     Caption: this.props.caption,
     Subtitle1: this.props.subtitle1,
     Subtitle2: this.props.subtitle2,
+    Image: this.props.image,
+    ImageMobile: this.props.imageMobile,
   };
 
   render() {
@@ -28,14 +38,22 @@ class Card extends Component {
         </div>
 
         <div className="projectCardImageBody">
-          <div className="projectCardImage">
+          <div className="projectCardImage des">
             <ImageZoom
               className="projectCardImageImage"
-              src={"/images/image.png"}
+              src={this.state.Image}
               zoom={this.zoom}
-              color="#303030"
+              color="#d9d9d9"
             />
           </div>
+
+          <div className="projectCardImage mob">
+            <img
+              src={this.state.ImageMobile}
+              className="projectCardImageImage"
+            />
+          </div>
+
           <div className="projectCardCaption"> {this.state.Caption} </div>
         </div>
       </div>

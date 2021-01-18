@@ -147,8 +147,8 @@
 
 @media screen and (max-width: 768px) {
   .stickyShadowWrapper {
-    width: 100%;
-    margin-left: 0;
+    width: 90%;
+    margin-left: 5%;
     margin-right: 0;
     margin-bottom: 15px;
   }
@@ -169,5 +169,48 @@
 
   .dogear {
     opacity: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .projectSticky {
+    margin-bottom: 0px;
+    height: 290px;
+    clip-path: polygon(
+      0% 0%,
+      /* top left */ 0% 0%,
+      /* top left */ 100% 0%,
+      /* top right */ 100% 0%,
+      /* top right */ 100% 80%,
+      /* bottom right */ 80% 100%,
+      /* bottom right */ 0% 100%,
+      /* bottom left */ 0 100% /* bottom left */
+    );
+  }
+  .stickyCopyContainer {
+    margin-top: 25px;
+    margin-left: 20px;
+  }
+
+  .stickyTitle {
+    font-size: 16px;
+  }
+
+  .stickyCopy {
+    font-size: 16px;
+  }
+
+  .dogear {
+    clip-path: polygon(
+      80% 80%,
+      /* top left */ 80% 80%,
+      /* top left */ 100% 80%,
+      /* top right */ 100% 0%,
+      /* top right */ 100% 80%,
+      /* bottom right */ 80% 100%,
+      /* bottom right */ 80% 100%,
+      /* bottom left */ 80% 100% /* bottom left */
+    );
+    opacity: 1;
   }
 }

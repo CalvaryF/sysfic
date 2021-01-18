@@ -19,9 +19,11 @@ function Info() {
           <div className="infoTextDiv">
             <span className="infoText">
               {" "}
-              Calvary Fisher is a speculative designer exploring remote
-              possibilities in system-centered design. He lives inLos Angeles,
-              California, and enjoys reading, running, and reality.
+              Systems Fiction is a speculative design practice created by
+              Calvary Fisher. It aims to imagine Preferable Futures by way of
+              complex systems and first principles thinking.
+              <br /> <br />
+              Lines are open:<b> calvaryfisher@gmail.com</b>
             </span>
           </div>
         </div>
