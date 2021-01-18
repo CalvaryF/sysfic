@@ -1,7 +1,7 @@
 .projectMultiImageBody {
   margin-top: 100px;
   width: 100%;
-  height: 1050px;
+  height: 990px;
   display: grid;
   grid-template-columns: 460px 460px;
   grid-template-rows: 500px 500px;
@@ -49,7 +49,7 @@
     grid-template-rows: 450px 450px;
     column-gap: 20px;
     margin-top: 80px;
-    height: 900px;
+    height: 860px;
   }
 
   .multiImageImage {

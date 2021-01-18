@@ -37,14 +37,9 @@
   font-size: 20px;
 }
 
-@media only screen and (max-width: 600px) {
-  .subHead {
-    font-size: 15px;
-  }
-}
-
 .menuItem {
   margin-right: 15px;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .selectable {
@@ -92,7 +87,7 @@
 .divider {
   display: inline-block;
   vertical-align: middle;
-  margin-left: 20px;
+  margin-left: 25px;
   margin-top: 0px;
   height: 65px;
   width: 1px;
@@ -141,5 +136,11 @@
     opacity: 1;
     transition: all 0.3s ease;
     pointer-events: all;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .subHead {
+    font-size: 15px;
   }
 }

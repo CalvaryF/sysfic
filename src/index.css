@@ -4,6 +4,7 @@
 @import "./components/cards.css";
 @import "./components/info.css";
 @import "./components/footer.css";
+@import "./components/pageIntro.css";
 @import "./components/projectHead.css";
 @import "./components/cardTypes/projectCards.css";
 @import "./components/cardTypes/sticky.css";

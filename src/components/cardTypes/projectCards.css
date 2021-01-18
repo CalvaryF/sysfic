@@ -182,6 +182,12 @@
   .projectCardDiv {
     width: 768px;
   }
+  .projectContainer {
+    margin-top: 0px;
+  }
+  .projectLeft {
+    top: 30px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -236,7 +242,7 @@
 
 @media screen and (max-width: 600px) {
   .projectContainer {
-    margin-top: 25px;
+    margin-top: 35px;
   }
 
   .projectCardParagraph {
@@ -282,6 +288,6 @@
   }
 
   .projectLeft {
-    margin-bottom: 0px;
+    margin-bottom: 25px;
   }
 }

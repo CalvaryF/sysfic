@@ -87,7 +87,7 @@ function Info() {
           />
         </div>
       </div>
-      <NextProject title={"startopolis"} />
+      <NextProject title={"startopolis"} image={"/images/NextProject.png"} />
     </div>
   );
 }

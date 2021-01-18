@@ -1,10 +1,11 @@
 .projectHead {
   display: block;
-  width: 100%;
-  height: 500px;
-  background-color: rgb(250, 250, 250);
+  width: 92%;
+  margin-left: 4%;
+  height: 480px;
+
   border-bottom: 1px solid lightgray;
-  margin-bottom: 60px;
+  margin-bottom: 90px;
   display: flex;
   justify-content: center;
 }
@@ -24,7 +25,7 @@
   filter: drop-shadow(0 1px 2px rgba(0, 0, 0, 0.06))
     drop-shadow(0 1px 1px rgba(0, 0, 0, 0.12));
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
-  border-radius: 10px;
+  border-radius: 2px;
 }
 
 .projectLogo:hover {
@@ -43,10 +44,10 @@
 }
 
 .projectHeadText {
-  color: rgb(96, 96, 96);
+  font-family: aktiv-grotesk-extended, serif;
+  font-size: 20px;
+  color: rgb(146, 146, 146);
   position: relative;
-  font-size: 22px;
-  font-family: ff-meta-serif-web-pro, serif;
 }
 
 .projectHeadTextContainer {
@@ -60,8 +61,6 @@
   right: 0px;
   height: 500px;
   width: 65px;
-
-  border-left: 1px solid rgb(193, 193, 193);
 }
 
 .projectVertical {
@@ -88,11 +87,11 @@
     font-size: 28px;
   }
   .projectHeadText {
-    font-size: 18px;
+    font-size: 16px;
   }
   .projectHeadTextContainer {
     display: inline-block;
-    width: 430px;
+    width: 530px;
     vertical-align: middle;
   }
 
@@ -105,7 +104,7 @@
     position: absolute;
     margin-left: 50px;
     margin-top: 150px;
-    width: 800px;
+    width: 900px;
     justify-self: center;
   }
 
@@ -137,12 +136,13 @@
   }
 }
 
-@media screen and (max-width: 920px) {
+@media screen and (max-width: 910px) {
   .projectHead {
     height: 450px;
     display: flex;
     justify-content: center;
     width: 100%;
+    margin-bottom: 0px;
   }
 
   .projectLogo {
@@ -198,11 +198,15 @@
 
   .projectHead {
     height: 380px;
+    margin-bottom: 15px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .projectHead {
     margin-bottom: 0px;
+  }
+  .projectVerticalText {
+    font-size: 14px;
   }
 }

@@ -4,6 +4,7 @@ import { Link, withRouter } from "react-router-dom";
 class Card extends Component {
   state = {
     Title: this.props.title,
+    Image: this.props.image,
   };
   render() {
     return (
@@ -29,7 +30,9 @@ class Card extends Component {
                 </div>
               </div>
 
-              <div className="nextImage"> </div>
+              <div className="nextImage">
+                <img className="nextImageImage" src={this.state.Image} />
+              </div>
             </div>
           </Link>
         </div>
