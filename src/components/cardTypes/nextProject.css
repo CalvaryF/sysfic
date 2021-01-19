@@ -49,7 +49,7 @@
 }
 
 .nextProjectName {
-  font-family: aktiv-grotesk-extended, serif;
+  font-family: aktiv-grotesk-extended, sans-serif;
   font-size: 28px;
   margin-left: 0px;
   text-transform: uppercase;
@@ -59,13 +59,14 @@
 }
 
 .nextProjectText {
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
-  font-family: ff-meta-serif-web-pro, serif;
+  font-family: aktiv-grotesk, sans-serif;
   margin-top: -80px;
   margin-left: 0px;
   width: 320px;
   text-align: center;
+  color: rgb(123, 123, 123);
 }
 
 .nextImage {
@@ -120,6 +121,11 @@
   .nextProjectName {
     font-size: 25px;
   }
+
+  .nextProjectText {
+    font-size: 16px;
+    width: 300px;
+  }
 }
 
 @media screen and (max-width: 900px) {
@@ -165,7 +171,6 @@
   .nextProjectText {
     font-size: 15px;
     font-weight: 400;
-    font-family: ff-meta-serif-web-pro, serif;
     margin-top: 0px;
     width: 300px;
     text-align: center;
@@ -216,7 +221,6 @@
   .nextProjectText {
     font-size: 14px;
     font-weight: 400;
-    font-family: ff-meta-serif-web-pro, serif;
     margin-top: 0px;
     width: 200px;
     text-align: center;

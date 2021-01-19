@@ -14,7 +14,7 @@ class Feed extends Component {
   render() {
     return (
       <>
-        <Intro title="Systems Sketchbook" />
+        <Intro title="Systems Sketchbook" icon="/images/feed_icon.svg" />
         <div className="flex">
           <div className="feed">
             {this.state.posts.map((post) => (

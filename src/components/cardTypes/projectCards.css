@@ -47,7 +47,7 @@
 .projectCardTitle {
   color: rgb(255, 255, 255);
   display: inline-block;
-  font-family: aktiv-grotesk-extended, serif;
+  font-family: aktiv-grotesk-extended, sans-serif;
   font-weight: 700;
   font-style: normal;
   font-size: 20px;
@@ -67,23 +67,24 @@
 
 .projectCardSubtitle {
   color: rgb(14, 14, 14);
-  font-family: aktiv-grotesk-extended, serif;
+  font-family: aktiv-grotesk-extended, sans-serif;
   font-size: 30px;
   font-weight: 600;
 }
 
 .projectCardSubtitle2 {
   color: rgb(14, 14, 14);
-  font-family: aktiv-grotesk-extended, serif;
+  font-family: aktiv-grotesk-extended, sans-serif;
   font-size: 20px;
   font-weight: 600;
 }
 
 .projectCardParagraph {
   margin-top: 15px;
-  font-size: 20px;
-  font-family: ff-meta-serif-web-pro, serif;
+  font-size: 18px;
+  font-family: aktiv-grotesk, sans-serif;
   width: 500px;
+  color: rgb(123, 123, 123);
 }
 
 ::selection {
@@ -117,11 +118,11 @@
 }
 
 .projectCardCaption {
-  font-family: ff-meta-serif-web-pro, serif;
+  font-family: aktiv-grotesk-extended, sans-serif;
   font-style: italic;
   padding-top: 20px;
   margin-left: 60px;
-  color: black;
+  color: rgb(123, 123, 123);
 }
 
 .lighten {
@@ -165,15 +166,15 @@
 
   .projectCardSubtitle2 {
     color: rgb(14, 14, 14);
-    font-family: aktiv-grotesk-extended, serif;
+    font-family: aktiv-grotesk-extended, sans-serif;
     font-size: 18px;
     font-weight: 600;
   }
 
   .projectCardParagraph {
     margin-top: 15px;
-    font-size: 18px;
-    font-family: ff-meta-serif-web-pro, serif;
+    font-size: 16px;
+    font-family: aktiv-grotesk-extended, sans-serif;
     width: 460px;
   }
 }
@@ -196,7 +197,6 @@
   }
   .projectContainer {
     display: flex;
-
     height: 100%;
   }
 
@@ -225,7 +225,7 @@
     margin-top: 15px;
     font-size: 15px;
 
-    width: 300px;
+    width: 500px;
   }
 
   .projectCardSubtitle {
@@ -260,7 +260,7 @@
     margin-left: 3%;
     margin-right: 3%;
     padding-top: 10px;
-    font-size: 14px;
+    font-size: 13px;
   }
 
   .projectCardImageBody {

@@ -48,11 +48,47 @@
   font-size: 20px;
   color: rgb(146, 146, 146);
   position: relative;
+  margin-bottom: 18px;
+}
+
+.projectHeadInfo {
+  display: block;
+  width: 500px;
+}
+
+.projectHeadInfoText {
+  font-family: aktiv-grotesk-extended, sans-serif;
+  font-weight: 400;
+  color: rgb(80, 80, 80);
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 16px;
+  letter-spacing: 2px;
+}
+
+.projectHeadInfoDivider {
+  display: inline-block;
+  width: 2px;
+  height: 25px;
+  background-color: rgb(110, 110, 110);
+  vertical-align: middle;
+  margin-left: 6px;
+  margin-right: 6px;
+}
+
+.infoDot {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  vertical-align: middle;
+  margin-left: 5px;
 }
 
 .projectHeadTextContainer {
   display: inline-block;
-  width: 600px;
+  width: 750px;
   vertical-align: middle;
 }
 
@@ -66,20 +102,24 @@
 .projectVertical {
   position: absolute;
   right: 6px;
-  margin-top: 80px;
+  margin-top: 65px;
+  display: none;
 }
 
 .projectVerticalText {
   position: absolute;
   font-family: aktiv-grotesk-extended, serif;
-  font-size: 20px;
+  font-size: 18px;
   text-transform: uppercase;
   font-weight: 400;
-  transform-origin: 0% 50%;
-  right: -191px;
-  transform: rotate(90deg);
-  margin-top: 115px;
+  left: 20px;
+  margin-top: 78px;
   color: rgb(142, 142, 142);
+  display: none;
+}
+
+.projectVerticalText {
+  width: 50%;
 }
 
 @media screen and (max-width: 1550px) {
@@ -116,7 +156,7 @@
     font-size: 18px;
     font-weight: 400;
     transform-origin: 0% 0%;
-    left: 20px;
+
     transform: rotate(0deg);
     margin-top: 78px;
     width: 50%;
@@ -124,25 +164,16 @@
 
   .projectVertical {
     position: absolute;
-
     margin-top: 65px;
-  }
-
-  .projectDivider {
-    height: 1px;
-    width: 100%;
-    margin-top: 110px;
-    background-color: rgb(228, 228, 228);
   }
 }
 
 @media screen and (max-width: 910px) {
   .projectHead {
-    height: 450px;
+    height: 580px;
     display: flex;
     justify-content: center;
-    width: 100%;
-    margin-bottom: 0px;
+    margin-bottom: 30px;
   }
 
   .projectLogo {
@@ -153,9 +184,12 @@
     margin-right: 0px;
   }
 
+  .projectLogo:hover {
+    margin-bottom: 50px;
+  }
+
   .projectHeadText {
     text-align: center;
-    display: none;
   }
 
   .projectHeadContent {
@@ -164,7 +198,7 @@
     flex-wrap: wrap;
     margin-left: 0px;
     margin-top: 150px;
-    width: 200px;
+    width: 600px;
   }
 
   .projectHeadTitle {
@@ -178,7 +212,6 @@
   }
 
   .projectVertical {
-    display: none;
   }
 
   .projectVerticalText {
@@ -196,17 +229,44 @@
     margin-right: 0px;
   }
 
+  .projectLogo:hover {
+    margin-bottom: 35px;
+  }
+
   .projectHead {
-    height: 380px;
+    height: 500px;
     margin-bottom: 15px;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 50px;
+  }
+
+  .projectHeadText {
+    font-size: 16px;
+  }
+
+  .projectHeadContent {
+    width: 520px;
   }
 }
 
 @media screen and (max-width: 600px) {
   .projectHead {
+    height: 520px;
     margin-bottom: 0px;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 50px;
   }
   .projectVerticalText {
+    font-size: 16px;
+  }
+
+  .projectHeadContent {
+    width: 320px;
+  }
+
+  .projectHeadText {
     font-size: 14px;
   }
 }

@@ -16,8 +16,15 @@ class Card extends Component {
               Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
               nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
               erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
-              consequat.{" "}
+              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo{" "}
+            </div>
+            <div className="projectHeadInfo">
+              {" "}
+              <div className="projectHeadInfoText">Fictional System</div>{" "}
+              <div className="projectHeadInfoDivider"></div>{" "}
+              <div className="projectHeadInfoText">Jan 2021</div>
+              <div className="projectHeadInfoDivider"></div>{" "}
+              <div className="infoDot crust"></div>{" "}
             </div>
           </div>
         </div>

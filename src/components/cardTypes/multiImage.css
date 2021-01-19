@@ -27,11 +27,12 @@
   margin-top: 8px;
   font-size: 18px;
   margin-left: 20px;
-  font-family: ff-meta-serif-web-pro, serif;
+  font-family: aktiv-grotesk, serif;
   width: 400px;
   display: block;
   position: relative;
   text-align: center;
+  color: rgb(123, 123, 123);
 }
 
 .multiImageCaptionHead {
