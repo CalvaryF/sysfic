@@ -11,6 +11,7 @@
 @import "./components/cardTypes/nextProject.css";
 @import "./components/cardTypes/multiImage.css";
 @import "./components/zoom.css";
+@import "./components/cardTypes/long.css";
 
 body {
   margin: 0;

@@ -18,8 +18,9 @@
 
 .introCopy {
   font-family: aktiv-grotesk-extended, serif;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(146, 146, 146);
+
   display: block;
   position: relative;
 }

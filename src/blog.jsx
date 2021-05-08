@@ -4,20 +4,15 @@ import Intro from "./components/pageIntro";
 
 class Feed extends Component {
   state = {
-    posts: [
-      { id: 1, image: "/images/1.jpg" },
-      { id: 2, image: "/images/2.jpg" },
-      { id: 3, image: "/images/2.jpg" },
-      { id: 4, image: "/images/2.jpg" },
-    ],
+    posts: [],
   };
   render() {
     return (
       <>
         <Intro
-          title="System Sketchbook"
-          icon="/images/feed_icon.svg"
-          copy="A collection of thoughts, wanderings, experiments, clippings, dreams, assemblages, impressions, projections, flows, notes, visions, jokes. Signal/noise ratio freefall. Incomplete, as anything. "
+          title="Blog Coming Soon"
+          icon="/images/blog_icon.svg"
+          copy="under construction / under construction / under construction / under construction / under construction / under construction / under construction / under construction / under construction /"
         />
         <div className="flex">
           <div className="feed">

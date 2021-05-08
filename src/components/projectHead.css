@@ -45,7 +45,7 @@
 
 .projectHeadText {
   font-family: aktiv-grotesk-extended, serif;
-  font-size: 20px;
+  font-size: 18px;
   color: rgb(146, 146, 146);
   position: relative;
   margin-bottom: 18px;
@@ -54,6 +54,7 @@
 .projectHeadInfo {
   display: block;
   width: 500px;
+  margin-bottom: 15px;
 }
 
 .projectHeadInfoText {

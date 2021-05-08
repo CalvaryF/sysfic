@@ -4,7 +4,8 @@ import Header from "./components/header";
 import Footer from "./components/footer";
 import Feed from "./feed";
 import Info from "./info";
-import Test from "./test";
+import Blog from "./blog";
+import Test from "./test2";
 import Work from "./work";
 import Project from "./components/project";
 import {
@@ -37,6 +38,7 @@ class Main extends Component {
 
             <Route path="/work" exact component={Work} />
             <Route path="/feed" component={Feed} />
+            <Route path="/blog" component={Blog} />
             <Route path="/info" component={Info} />
             <Route path="/test" component={Test} />
           </Switch>

@@ -67,7 +67,11 @@ class Work extends Component {
   render() {
     return (
       <>
-        <Intro icon="/images/intro_icon.svg" title="mapping the possible " />
+        <Intro
+          icon="/images/intro_icon.svg"
+          title="Mapping the material"
+          copy="Systems Fiction is a speculative design practice aiming to map transcendence germinating from a realist base. Each project envisions a possible world where emerging technologies are pushed to a limit. This is done with a sense for the systemic, an attention to how things connect, reverberate, collapse, and rebuild."
+        />
         <Cards cards={this.state.projects} />
       </>
     );

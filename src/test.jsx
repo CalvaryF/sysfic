@@ -3,31 +3,26 @@ import ProjectHead from "./components/projectHead";
 import AllText from "./components/cardTypes/allText";
 import TextImageText from "./components/cardTypes/textImageText";
 import AllImage from "./components/cardTypes/allImage";
-import Sticky from "./components/cardTypes/sticky";
+import Sticky from "./components/cardTypes/long";
 import MultiImage from "./components/cardTypes/multiImage";
 import NextProject from "./components/cardTypes/nextProject";
 
 function Info() {
   return (
     <div>
-      <ProjectHead />
+      <ProjectHead
+        ProjectTitle="chimera"
+        ProjectCopy="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident"
+      />
       <div className="projectContainer flex">
         <div className="projectLeft">
           <Sticky
             icon={"/images/icon.svg"}
-            color={0}
+            color={1}
             title={"Project Principle"}
             item1={"Non / Human boundary"}
             item2={"Proto-social networks"}
             item3={"Bio-Logistics"}
-          />
-          <Sticky
-            icon={"/images/icon2.svg"}
-            color={1}
-            title={"Tools + Techniques"}
-            item1={"Research"}
-            item2={"Prototyping"}
-            item3={"Storyboarding"}
           />
         </div>
 

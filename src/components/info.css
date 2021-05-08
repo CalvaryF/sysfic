@@ -30,10 +30,10 @@
 .por {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-  grid-gap: 5rem;
+  grid-gap: 4rem;
   margin-top: 120px;
   opacity: 0.95;
-  width: 50%;
+  width: 80%;
   flex-wrap: wrap;
   justify-content: center;
   max-width: 1920px;
@@ -56,22 +56,26 @@
 
 .infoImage {
   width: 400px;
-  height: 370px;
+  height: 555px;
   object-fit: cover;
   display: block;
 }
 
 .infoTextDiv {
   margin: auto;
-  padding-top: 25px;
+  padding-top: 30px;
   padding-bottom: 30px;
-  width: 85%;
+  width: 80%;
   text-align: center;
-  font-family: ff-meta-serif-web-pro, serif;
+  font-family: aktiv-grotesk, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
-  color: rgb(87, 87, 87);
+  font-size: 18px;
+  color: rgb(123, 123, 123);
+}
+
+.light {
+  background-color: rgb(245, 245, 245);
 }
 
 .infoBackground {

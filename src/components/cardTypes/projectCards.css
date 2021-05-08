@@ -8,7 +8,7 @@
 
 .projectLeft {
   position: sticky;
-  top: 90px;
+  top: 80px;
   align-self: flex-start;
   display: block;
 }
@@ -23,6 +23,14 @@
   background-color: white;
   padding-bottom: 30px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.mid {
+  vertical-align: top;
+  margin-top: 14px;
+  margin-left: 10px;
+  float: right;
+  font-size: 20px;
 }
 
 .noMargin {
@@ -93,6 +101,10 @@
 
 .projectCardImageBody {
   padding-bottom: 30px;
+}
+
+.projectCardImage2Body {
+  padding-bottom: 0px;
 }
 
 .projectCardImage {

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-
 import { Link, withRouter } from "react-router-dom";
 
 class Header extends Component {
@@ -59,6 +58,17 @@ class Header extends Component {
               }
             >
               Feed
+            </Link>
+            <Link
+              onClick={this.handleClick}
+              to="/blog"
+              className={
+                this.props.location.pathname === "/blog"
+                  ? "menuItem  menuItemSelected"
+                  : "menuItem selectable"
+              }
+            >
+              Blog
             </Link>
             <Link
               onClick={this.handleClick}

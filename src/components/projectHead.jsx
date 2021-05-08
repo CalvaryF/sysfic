@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Card extends Component {
   state = {
     title: this.props.ProjectTitle,
+    copy: this.props.ProjectCopy,
   };
   render() {
     return (
@@ -10,22 +11,16 @@ class Card extends Component {
         <div className="projectHeadContent">
           <img className="projectLogo" src="/images/chimera_logo2.svg"></img>
           <div className="projectHeadTextContainer">
-            <div className="projectHeadTitle"> chimera</div>
-            <div className="projectHeadText">
-              {" "}
-              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
-              nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-              erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci
-              tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo{" "}
-            </div>
+            <div className="projectHeadTitle"> {this.state.title}</div>
             <div className="projectHeadInfo">
               {" "}
-              <div className="projectHeadInfoText">Fictional System</div>{" "}
+              <div className="projectHeadInfoText">Biology Series</div>{" "}
               <div className="projectHeadInfoDivider"></div>{" "}
-              <div className="projectHeadInfoText">Jan 2021</div>
+              <div className="projectHeadInfoText">2045</div>
               <div className="projectHeadInfoDivider"></div>{" "}
               <div className="infoDot crust"></div>{" "}
             </div>
+            <div className="projectHeadText">{this.state.copy}</div>
           </div>
         </div>
         <div className="projectDivider"> </div>

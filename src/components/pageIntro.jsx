@@ -3,6 +3,7 @@ import React, { Component } from "react";
 class Intro extends Component {
   state = {
     Title: this.props.title,
+    Copy: this.props.copy,
     Icon: this.props.icon,
   };
 
@@ -20,12 +21,7 @@ class Intro extends Component {
           <div className="introContainer">
             <div className="introTextContainer">
               <div className="introTitle">{this.state.Title}</div>
-              <div className="introCopy">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a galley
-                of type and scrambled it to make a type specimen book.
-              </div>
+              <div className="introCopy">{this.state.Copy}</div>
             </div>
             <div className="introIcon">{this.handleIcon()}</div>
           </div>
